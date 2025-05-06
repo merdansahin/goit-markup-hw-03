@@ -1,13 +1,7 @@
-html {
-  box-sizing: border-box;
-}
-
 *,
 *::before,
 *::after {
   box-sizing: border-box;
-  margin-top: 0;
-  margin-left: 0;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -15,7 +9,7 @@ body {
 }
 .container {
   margin: 0 auto;
-  width: 1158px;
+  width: 1440px;
   padding: 0 15px;
 }
 .logo-nav {
@@ -24,7 +18,10 @@ body {
 .top-line {
   display: flex;
   align-items: center;
-  width: 1440px;
+  height: 72px;
+  background-color: aquamarine;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .nav {
@@ -50,8 +47,9 @@ body {
 .address-list {
   display: flex;
   gap: 24px;
-  margin-left: 160px;
-  margin-top: 24px;
+  margin-left: px;
+  margin-top: px;
+  align-items: center;
 }
 
 .link {
@@ -86,7 +84,7 @@ body {
   height: 56px;
   flex-direction: row;
   gap: 10px;
-  margin-left: 636px;
+  margin-left: 536px;
   margin-bottom: 188px;
   margin-right: 635px;
 }
@@ -133,7 +131,7 @@ h3 {
   height: 24px;
   text-decoration: none;
   flex-direction: row;
-  margin-bottom: 200px;
+  margin-left: 140px;
 }
 .small-web {
   font-weight: 700;
@@ -178,12 +176,11 @@ li {
   gap: 40px;
 }
 .hero {
-  width: 1440px;
   height: 600px;
   background: #2e2f42;
   margin-top: 0;
 }
-h1 {
+.head1 {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
@@ -195,21 +192,21 @@ h1 {
 .text {
   display: flex;
   gap: 24px;
-  width: 1128px;
+  width: 1100px;
   height: 104px;
-  margin-left: 140px;
+  margin-left: 10px;
   margin-right: 156px;
   margin-top: 98px;
   margin-bottom: 120px;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 .light-bg {
   background-color: #f4f4fd;
-  width: 1440px;
+  width: 100%;
   height: 732px;
   display: flex;
   flex-wrap: wrap;
@@ -217,14 +214,18 @@ h1 {
 .team-card {
   display: flex;
   gap: 24px;
-  margin-right: 156px;
+  margin-right: 110px;
   margin-left: 110px;
   margin-bottom: 120px;
+  width: calc((100%-48px)) / 4;
 }
 .img-sdw {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
+  width: 264px;
+  height: 360px;
+  width: calc((100%-48px)) / 4;
 }
 .down-card {
   width: 264px;
@@ -246,17 +247,16 @@ h1 {
   line-height: 1.11111;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  justify-items: center;
 }
 .section1 {
-  width: 1440px;
   height: 322px;
   margin-top: 0;
   display: flex;
 }
 .portfolio {
   display: flex;
-  width: 1440px;
-  height: 1240px;
+  width: 100%;
 }
 .picture {
   width: 360px;
@@ -264,12 +264,11 @@ h1 {
 }
 .our-portfolio {
   display: flex;
-  margin-top: 210px;
-  margin-left: 100px;
-
-  width: 1210px;
-  height: 10px;
+  margin-top: 0;
+  width: calc((100%-20px) / 3);
+  height: 1238px;
   flex-wrap: wrap;
+  background-color: aquamarine;
 }
 .portfolio-header {
   height: 40px;
@@ -281,13 +280,13 @@ h1 {
   color: #2e2f42;
   text-transform: capitalize;
   margin-bottom: 100px;
+  justify-items: center;
 }
 .portfolio-image {
   display: flex;
   align-content: flex-start;
   flex-wrap: wrap;
   gap: 24px;
-  width: 1;
 }
 .down-picture {
   width: 360px;
@@ -309,21 +308,11 @@ h1 {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-top: 20px;
+  margin-top: 140px;
+  margin-left: 140px;
 }
 .dark-bg {
-  width: 1440px;
   height: 312px;
   background-color: #2e2f42;
-  display: flex;
-  align-self: baseline;
-  flex-wrap: wrap;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  padding-right: 1020px;
-}
-.little-container {
-  margin-left: 156px;
-  width: 264px;
-  height: 112px;
+  gap: 8px;
 }
