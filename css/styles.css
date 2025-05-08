@@ -23,7 +23,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em; #e7e9fc
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .nav:hover,
@@ -75,7 +75,7 @@ h3 {
   text-decoration: none;
   margin-left: 140px;
   align-items: center;
-  justify-content: flex-start
+  justify-content: flex-start;
 }
 .logo .logo-web {
   font-weight: 700;
@@ -183,14 +183,13 @@ li {
   margin-left: 90px;
   margin-bottom: 120px;
   width: 1000px;
-
 }
 .img-sdw {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
   width: 260px;
-  height: 400px;   
+  height: 400px;
 }
 .img-card {
   width: 260px;
