@@ -174,25 +174,31 @@ li {
   height: 732px;
   display: flex;
   flex-wrap: wrap;
+  padding: 20px;
+  text-align: center;
 }
 .team-card {
   display: flex;
   gap: 24px;
-  margin-left: 100px;
+  margin-left: 90px;
   margin-bottom: 120px;
+  width: 1000px;
+
 }
 .img-sdw {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
-  width: 264px;
-  height: 400px;
+  width: 260px;
+  height: 400px; 
+  
+  
 }
 .img-card {
-  width: 264px;
+  width: 260px;
 }
 .down-card {
-  width: 264px;
+  width: 260px;
   height: 100px;
   justify-items: center;
 }
@@ -245,6 +251,7 @@ li {
   flex-wrap: wrap;
   gap: 24px;
   margin-left: 100px;
+  width: 1228px;
 }
 .down-picture {
   width: 360px;
