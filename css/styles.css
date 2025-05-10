@@ -13,11 +13,13 @@ body {
   padding: 0 15px;
 }
 .top-line {
-  display: flex;
-  align-items: center;
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
   margin-bottom: -46px;
+}
+.top-header {
+  align-items: center;
+  display: flex;
 }
 .nav {
   font-weight: 500;
@@ -25,6 +27,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  text-decoration: none;
 }
 .nav:hover,
 .nav:focus {
@@ -35,14 +38,16 @@ body {
   color: #404bbf;
 }
 .connect {
-  margin-left: auto;
+  margin-left: 280px;
   font-style: normal;
+  align-items: center;
 }
 .address-list {
   display: flex;
   gap: 24px;
-  margin-left: 170px;
+  margin-left: 100px;
   align-items: center;
+  margin-top: 20px;
 }
 .link {
   font-weight: 400;
@@ -68,21 +73,22 @@ h3 {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
+.top-nav {
+  display: flex;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   width: 115px;
   height: 24px;
   text-decoration: none;
-  margin-left: 140px;
-  align-items: center;
-  justify-content: flex-start;
+  margin-left: 50px;
+  margin-top: 24px;
 }
 .logo .logo-web {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16667;
   letter-spacing: 0.03em;
-  text-transform: none;
   color: #4d5ae5;
 }
 .logo .logo-studio {
@@ -90,34 +96,21 @@ h3 {
   font-size: 18px;
   line-height: 1.16667;
   letter-spacing: 0.03em;
-  text-decoration: none;
   color: #2e2f42;
 }
 .header-nav {
   display: flex;
   text-decoration: none;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  margin-left: 60px;
+  margin-left: 90px;
+  margin-top: 20px;
   gap: 40px;
 }
 li {
   list-style-type: none;
 }
-.nav {
-  text-decoration: none;
-  display: flex;
-}
 .address-connect {
   text-decoration: none;
   display: flex;
-}
-.connect {
-  display: flex;
-  margin-top: 24px;
-  margin-bottom: 24px;
-  margin-left: 100px;
-  gap: 40px;
 }
 .hero {
   height: 600px;
@@ -174,14 +167,15 @@ li {
   height: 732px;
   display: flex;
   flex-wrap: wrap;
-  padding: 20px;
   text-align: center;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 .team-card {
   display: flex;
   gap: 24px;
   margin-left: 110px;
-  margin-bottom: 120px;
+  margin-top: 90px;
 }
 .img-sdw {
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
@@ -202,14 +196,15 @@ li {
   padding-top: 3px;
 }
 .team-header {
-  margin-left: 609px;
-  margin-top: 90px;
+  margin-left: 600px;
+  margin-top: 80px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
   letter-spacing: 0.02em;
   color: #2e2f42;
   justify-items: center;
+  width: 200px;
 }
 .section1 {
   height: 344px;
